@@ -81,7 +81,7 @@ class _MyHomePageState extends State<MyHomePage> {
             side: BorderSide(color: Colors.black)
           ),
           onPressed: (){}, 
-          child: Text("Go to Second Screen", style: TextStyle(fontSize: 16, color: Colors.black))
+          child: Text("Toggle Image", style: TextStyle(fontSize: 16, color: Colors.black))
           )
         ]
       )),
