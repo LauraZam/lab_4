@@ -55,7 +55,7 @@ class _MyHomePageState extends State<MyHomePage> {
           const SizedBox(height: 16),
           Stack(children: [
             Image.asset('assets/images/image1.jpg', height: 200, width: 300, fit: BoxFit.fitHeight),
-            Container(height: 200, width: 200, decoration: BoxDecoration(color: Colors.black.withOpacity(0.5))),
+            Container(height: 200, width: 300, decoration: BoxDecoration(color: Colors.black.withOpacity(0.5))),
             Text('Welcome to Flutter', style: TextStyle(color: Colors.white, fontSize: 22, ),)
           ],),
           const SizedBox(height: 16),
